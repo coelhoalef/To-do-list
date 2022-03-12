@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+        color: white;
+        background-color: rgb(16, 17, 19) ;
+    
+}
+
+#box {
+    background-color:  rgb(2, 141, 118);
+
+    width: 600px;
+    height: 600px;
+    margin: 10px auto;
+    box-sizing: border-box;
+
+    border-radius: 5px;
+    border: 1px solid white;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Shadows Into Light', Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.box {
+    margin: 30px;
+    margin-top: 25px;
+}
+
+.boxcolor{
+    padding: 10px;
+    background-color: rgb(8, 114, 96);
+    
+    border-radius: 5px;
+}
+
+#subtitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#inputTask{
+    width:300px;
+    height: 28px;
+
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+
+    font-size: 18px;
+
+}
+
+#btnInput{
+    height: 32px;
+    width: 60px;
+
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+
+    margin-left: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(3, 48, 40);
+
+    
+}
+
+ul{
+  list-style-type: none;  
+}
+
+li{
+    background-color: rgb(8, 114, 96);
+    margin-bottom: 5px;
+    padding: 5px;
+
+    font-size: 20px;
+
+    border-radius: 5px;
+}
+
+.check{
+    margin-right: 5px;
+    
+}
+
+.delete{
+    color: white;
+    background-color: rgb(3, 48, 40);
+    
+    font-size: 17px;
+}
+
+.btnDelete{
+    float: right;
+    background-color: rgb(3, 48, 40);
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+
+}
