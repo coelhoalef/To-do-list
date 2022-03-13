@@ -15,7 +15,8 @@ body{
     background-color:  rgb(2, 141, 118);
 
     width: 600px;
-    height: 600px;
+    min-height: 300px;
+    max-height: auto;
     margin: 10px auto;
     box-sizing: border-box;
 
@@ -79,8 +80,8 @@ ul{
 
 li{
     background-color: rgb(8, 114, 96);
-    margin-bottom: 5px;
-    padding: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
 
     font-size: 20px;
 
@@ -106,4 +107,62 @@ li{
     width: 25px;
     height: 25px;
 
+}
+
+@media screen and (max-width: 770px){
+    #box {
+        width: 300px;
+        min-height: 200px;
+        max-height: auto;
+        margin: 5px auto;
+    }
+    
+    h1{
+        text-align: center;
+        font-family: 'Shadows Into Light', Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    
+    .box {
+        margin: 20px;
+        margin-top: 20px;
+    }
+    
+    .boxcolor{
+        padding: 7px;
+    }
+    
+    #subtitle{
+        font-size: 15px;
+    }
+    
+    #inputTask{
+        width:240px;
+        height: 25px;
+        font-size: 15px;
+        margin-bottom: 5px;;
+    }
+    
+    #btnInput{
+        height: 25px;
+        width: 60px;
+        margin-left: 1px;
+        font-size: 12px;
+    }
+    
+    li{
+        background-color: rgb(8, 114, 96);
+        margin-bottom: 7px;
+        padding: 8px;
+        font-size: 15px;
+    }
+    
+    .delete{
+        font-size: 15px;
+    }
+    
+    .btnDelete{
+        width: 23px;
+        height: 20px;
+    }
 }
